@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img4.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color:rgba(68, 66, 66,0.4)
+}
+.navbar .nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar .nav-menu li{
+    list-style-type: none;
+    line-height: 80px;
+}
+.navbar .nav-menu li a{
+    text-decoration: none;
+    padding: 12px 30px;
+    color: white;
+    font-size: bold;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar .nav-menu li a:hover{
+    color: white;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    text-shadow: 1px 2px 2px rgba(68, 66, 66,0.6);
+}
+.text h3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: bold;
+    font-style:inherit;
+    padding: 8px;
+    margin: 20px;
+}
+span{
+    color: red;
+    font-style: italic;
+    font-size: bold;
+}
